@@ -32,4 +32,9 @@ public class ElibraryController {
 	}
 	
 	
+	@RequestMapping(value="/news.do")
+	public String news(@ModelAttribute("searchVO") ElibraryVO searchVO,HttpServletRequest request,ModelMap model) throws Exception{
+		return "elibrary/news";
+	}
+	
 }

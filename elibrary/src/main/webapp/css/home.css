@@ -86,3 +86,57 @@ ul{
     background-image: url(/images/winter.png);
     min-height: 100vh;
 }
+
+
+/* News
+------------------------------------------------------
+*/
+
+#news{
+	background-image: url(/images/winter.png);
+	min-height: 100vh;
+	
+	background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+	
+}
+
+#news .page-title{
+	text-align: center;
+}
+
+#title{
+border: 5px groove ; height: auto; padding: 10px;
+}
+
+/*
+푸터
+*/
+
+footer{
+	background: #432;
+	text-align: center;
+	padding:26px 0;
+}
+
+footer p{
+	color:#fff;
+	font-size:0.875rem;
+}
+
+/*기사부분*/
+article{
+	width:74%;
+}
+
+/*사이드바*/
+aside{
+	width:22%;
+}
+
+.news-contens{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:50px;
+}
