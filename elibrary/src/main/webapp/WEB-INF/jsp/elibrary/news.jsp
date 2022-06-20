@@ -41,13 +41,37 @@
    		<article>
    			메인 콘텐츠 부분
    			<header class="post-info">
-   				<h2></h2>
+   				<h2 class="post-title">주요 공지사항</h2>
+   				<p class="post-date">3/30<span>2019</span></p>
+   				<p class="post-cat">카테고리: 도서관 소개</p>
    			</header>
+   			<img src="images/books.jpg" alt="도서관 모습" style="border:1px solid black">
+   			<p>도서관 소개내용1</p>
+   			<p>도서관 소개내용2</p>
+   			<p>도서관 소개내용3</p>
+   			
+   			
    		</article>
    		
    		<aside>
    			사이드바 부분
+   			<h3 class="sub-title">카테고리</h3>
+   			<ul class="sub-menu">
+   				<li><a href="#">도서관 소개</a>
+   				<li><a href="#">새로 들어온 책</a>
+   				<li><a href="#">도서관 이용수칙 및 관련법규</a>
+   				<li><a href="#">도서관 찾아오시는길</a>
+   			</ul>
+   			
+   			<h3 class="sub-title">도서관 소개</h3>
+   			<p>
+   			간단한 도서관 소개
+   			</p>
    		</aside>
+   		
+   		
+   		
+		
    	</div>
    
    
